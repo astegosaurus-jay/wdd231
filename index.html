@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/home.svg" alt="site logo" width="512" height="512">
+        <span>Jason Jimenez</span>
+        <button id="ham-btn" class="hamburger" title="ham-btn"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hi my name is Jason. A little bit about me, I was born in Salt Lake city Utah, I love to cook and eat good food and I love to play games when I have the time!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam numquam unde corrupti voluptatem voluptatibus earum labore, et, non dignissimos pariatur rerum at soluta vero! Dolorum provident minus accusantium quisquam similique?</p>
+        </section>
+
+        <section class="pic">
+            <h2>Student Photo</h2>
+            <img src="images/me.webp" alt="picture of me" width="250px" height="333px">
+        </section>
+
+        <section  class="courses">
+            <h2>Web Certificate Courses</h2>
+            <ul>
+                <li><button id="all">All</button></li>
+                <li><button id="cse">CSE</button></li>
+                <li><button id="wdd">WDD</button></li>
+            </ul>
+            <div id="classes" class="classes">
+
+                <p><span id="credit"></span></p>
+            </div>
+        </section>
+    </main>
+    
+
+    <footer>
+        <div class="social">
+            <a href="#" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+            <a href="#" target="_blank"><img src="images/linkedin.svg" alt="linked in" width="16" height="16"></a>
+            <a href="#" target="_blank"><img src="images/discord.svg" alt="discord" width="16" height="16"></a>
+        </div>
+        <p>© <span id="currentyear"></span> Jason Jimenez Utah</p>
+        <p><span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
