@@ -79,7 +79,7 @@ const courses = [
 ]
 
 createCourseCard(courses);
-createCredit(courses);
+// createCredit(courses);
 const allLink = document.querySelector("#all");
 
 allLink.addEventListener("click", () => {
