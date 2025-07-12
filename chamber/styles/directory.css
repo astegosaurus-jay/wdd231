@@ -122,8 +122,11 @@ footer {
 	display: flex;
 	flex-direction: column;
 
-	section {
-		display: grid;
+	
+}
+
+.list section {
+    display: grid;
 		grid-template-columns:  1fr 1fr;
 		margin: 0;
 		padding: 0.25rem;
@@ -146,7 +149,6 @@ footer {
         &:nth-child(odd) {
             background-color: #ffffff;
         }
-	}
 }
 
 
@@ -172,12 +174,19 @@ footer {
     padding: .5rem;
     
 
-	section {
-		text-align: center;
-        border: 1.5px solid black;
-        background-color: #eee;
-		& > * {
-			margin: 0.1rem;
-		}
+	
+}
+
+.grid section {
+	text-align: center;
+    border: 1.5px solid black;
+    background-color: #eee;
+	& > * {
+		margin: 0.1rem;
 	}
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
 }

@@ -27,10 +27,10 @@
         border: none;
     }
     
-    .list {
-        section {
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
+    .list section{
+        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
     }
 
     
