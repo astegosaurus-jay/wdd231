@@ -1,0 +1,68 @@
+{
+    "members": [
+        {
+            "name": "Pewter City Gym",
+            "adress": "Pewter Street 123",
+            "phonenumber": "123456789",
+            "url": "arealwebsite.com",
+            "image": "images/pewtercity.webp",
+            "membership": "Gold"
+        },
+
+        {
+            "name": "Cerulean City Gym",
+            "adress": "Cerulean Way 456",
+            "phonenumber": "123456789",
+            "url": "arealwebsite.com",
+            "image": "images/cerulean.webp",
+            "membership": "Gold"
+        },
+
+        {
+            "name": "Vermilion City Gym",
+            "adress": "Vermilion Street 123",
+            "phonenumber": "123456789",
+            "url": "arealwebsite.com",
+            "image": "images/vermilion.webp",
+            "membership": "Bronze"
+        },
+
+        {
+            "name": "Celadon City Gym",
+            "adress": "Celadon Way 456",
+            "phonenumber": "123456789",
+            "url": "arealwebsite.com",
+            "image": "images/celadon.webp",
+            "membership": "Silver"
+        },
+
+        {
+            "name": "Fuchsia City Gym",
+            "adress": "Fuchsia lane 789",
+            "phonenumber": "123456789",
+            "url": "arealwebsite.com",
+            "image": "images/fuchsia.webp",
+            "membership": "Silver"
+        },
+
+        {
+            "name": "Saffron City Gym",
+            "adress": "Saffron lane 741",
+            "phonenumber": "123456789",
+            "url": "arealwebsite.com",
+            "image": "images/saffron.webp",
+            "membership": "Gold"
+        },
+
+        {
+            "name": "Cinnabar Island Gym",
+            "adress": "Cinnabar port",
+            "phonenumber": "123456789",
+            "url": "arealwebsite.com",
+            "image": "images/cinnabar.webp",
+            "membership": "Bronze"
+        }
+
+      
+    ]
+}
