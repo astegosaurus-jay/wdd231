@@ -11,12 +11,15 @@
     <meta property="url" content="https://astegosaurus-jay.github.io/wdd231/chamber/directory.html">
     <link rel="icon" href="images/favicon(1).ico">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/directory.css">
-    <link rel="stylesheet" href="styles/directory-large.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
-    <script src="scripts/directory.js" defer></script>
+    <!-- <script src="scripts/directory.js" defer></script> -->
+     <script src="scripts/homeweather.js" defer></script>
+     <script src="scripts/forecast.js" defer></script>
+     <script src="scripts/home.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
     <title>Kanto Chamber of Commerce</title>
@@ -32,23 +35,54 @@
 
     <nav id="nav-bar" class="navigation">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a class="current" href="#">Home</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
         </nav>
     <main>
-        <h1>Kanto Chamber of Commerce Directory</h1>
-        <div class="menu">
-            <button id="grid"><img src="images/grid-3x3-gap.svg" alt="grid button"></button>
-            <button id="list"><img src="images/list-ul.svg" alt="list buttom"></button>
+       <div class="banner">
+            <picture>
+                <source srcset="images/herolarge.webp" media="(min-width: 900px)">
+                <img src="images/herosmall.webp" alt="map of kanto">
+            </picture>
+            <h1>Join the Kanto chamber of Commerce today!</h1>
+            
+       </div>
+        <div class="button">
+            <button class="join">
+            <a href="#">Join Now!</a>
+        </button>
 
         </div>
-        <article id="cards" class="grid">
+       <h2>Home</h2>
+       <div class="home">
+            
+            <section class="event">
+                <h3>Current Events</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi quos voluptatem, ducimus libero sunt accusamus possimus deleniti. Ducimus voluptatum expedita odit soluta atque earum, mollitia neque consequuntur quaerat eaque nobis.</p>
+            </section>
+            <section class="weather" id="weather">
+                <h3>Current Weather</h3>
+                <p id="temp"></p>
+                <img id="graphic" src="" alt="">
+                <p id="condition"></p>
+            </section>
+
+            <section class="forecast" id="forecast">
+                <img src="images/thermometer-half.svg" alt="thermometer-half">
+
+            </section>
+       </div>
+
+       <article id="cards" class="grid">
 
         </article>
     </main>
+
+
+
 
     <footer>
         <div>

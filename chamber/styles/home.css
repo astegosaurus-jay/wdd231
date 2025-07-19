@@ -59,6 +59,7 @@ header p {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 .navigation a {
@@ -69,8 +70,8 @@ header p {
     border-bottom: solid 1px #ddd;
 }
 
-.navigation li.current {
-    background-color: #eee;
+.current {
+    background-color: #eee;    
 }
 
 .navigation a:hover {
@@ -118,52 +119,6 @@ footer {
 }
 
 
-.list {
-	display: flex;
-	flex-direction: column;
-
-	
-}
-
-.list section {
-    display: grid;
-		grid-template-columns:  1fr 1fr;
-		margin: 0;
-		padding: 0.25rem;
-    & > * {
-			margin: 0 1rem;
-		}
-
-		img {
-			display: none;
-		}
-
-		h3 {
-			font-size: 1rem;
-		}
-
-		&:nth-child(even) {
-			background-color: #ddd;
-		}
-        &:nth-child(odd) {
-            background-color: #ffffff;
-        }
-		
-}
-
-
-
-.menu {
-    margin: 0 auto;
-    padding: .5rem;
-    text-align: center;
-    
-}
-
-.menu button {
-    max-width: 68px;
-    max-height: 68px;
-}
 
 
 .grid {
@@ -198,3 +153,42 @@ h1 {
     height: auto;
     padding: 1rem;
 }
+
+.home {
+    display: grid;
+	grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.weather, .forecast, .event{
+    background-color: lightyellow;
+    border: 1px solid black;
+}
+
+.forecast p{
+    padding: .8rem;
+    font-size: bold 1.2rem;
+    text-transform: capitalize;
+}
+
+.forecast img {
+    padding: 1rem;
+}
+h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+.join:hover {
+    background-color: salmon;
+}
+
+.button {
+    
+    text-align: center;
+}
+
+
