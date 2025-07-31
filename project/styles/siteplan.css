@@ -1,0 +1,19 @@
+header, footer, main {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #eee;
+}
+
+div {
+    padding: 1rem;
+}
+
+h1 {
+    font-family: "Cabin", sans-serif;
+    color: purple;
+}
+p {
+    font-family: "Nata Sans", sans-serif;
+}
