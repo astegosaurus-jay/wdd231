@@ -1,0 +1,11 @@
+@media only screen and (min-width: 38rem) {
+
+
+    #places section {
+        grid-template-areas: 
+        "name ."
+        "pic description"
+        "pic address"
+        "button button";
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "places": [
+        {
+            "name": "Pewter City Rock Climbing",
+            "adress": "Pewter Street 123",
+            "description": "Go rock climb with the Pewter gym leader who is as tough as a rock, Brock",
+            "image": "images/pewtergym.webp"
+        },
+        {
+            "name": "Cerulean City Gym",
+            "adress": "Cerulean lane 123",
+            "description": "Go swiming at the world renown Cerulean gym",
+            "image": "images/ceruleangym.webp"
+        },
+        {
+            "name": "vermilion City Trick room",
+            "adress": "Vermilion Way 123",
+            "description": "Dig through some trash to find the right switch to open your Path the the next room",
+            "image": "images/vermiliongym.webp"
+        },
+        {
+            "name": "Celadon City Garden",
+            "adress": "Celadon Street 123",
+            "description": "Take a walk through Celadon City's famous garden",
+            "image": "images/celadongym.webp"
+        },
+        {
+            "name": "Safari Zone",
+            "adress": "Fuschia lane 2345",
+            "description": "Go on a wild safari just north of Fuschia City",
+            "image": "images/safari.webp"
+        },
+        {
+            "name": "Mt. Moon",
+            "adress": "Pewter highway 5",
+            "description": "Go spelunking and explore on of Kanto's most mysterious caves.",
+            "image": "images/mtmoon.webp"
+        },
+        {
+            "name": "S.S. Anne",
+            "adress": "Vermilion lane 123",
+            "description": "Take a Cruise aboard the S.S. Anne.",
+            "image": "images/anne.webp"
+        },
+        {
+            "name": "Cerulean Cave",
+            "adress": "Cerulean Bridge ",
+            "description": "Only the strongest can enter this cave and hope to find a Legendary creature",
+            "image": "images/cave.webp"
+        }
+
+    ]
+}
