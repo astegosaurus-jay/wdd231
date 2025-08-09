@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostalgic Reflection</title>
+    <meta name="author" content="Jason Jimenez">
+    <meta name="description" content="WDD 231 Project Nostalgic Reflection">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Nata+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/n64-controler.svg" alt="n64 controler">
+        <h1>Nostalgic Reflection</h1>
+        <button id="ham-btn" class="hamburger" title="ham-btn"></button>
+    </header>
+     <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="pokemon.html">Pokemon Collection</a></li>
+                <li><a href="game.html">Video Games</a></li>               
+            </ul>
+    </nav>
+    <main>
+        <div>
+            <picture>
+                <source srcset="images/mainimg.webp" media="(min-width: 800px)">
+                <img src="images/mainsmall.webp" alt="n64 box art collage">
+            </picture>
+            
+        </div>
+
+        <div>
+            <p>As I have gotten older I have realized how easy it is to forget, or lose the reason why we like something in the first place. For me I have many of the same hobbies I did as a kid and in some ways I am just as passionate now as I was then. Over the last few years two of my favorite hobbies, that being gaming and collecting Pokemon cards has really felt different, I mean heck Pokemon cards feel more like a stock market than a trading card game for kids. Being partially inspired by a channel I watch on youtube, I wanted to reflect on why I fell in love with these hobbies in the first place, thus the name Nostalgic Reflection. These are things that helped me get through a difficult childhood so I decided to take some photos and write some thoughts and memories about them. I encourage you the reader to also reflect on your hobbies or passions and maybe write down some fond memories as well.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> Nostalgic Reflection</p>
+        <p><span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>

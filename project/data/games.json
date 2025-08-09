@@ -1,0 +1,95 @@
+{
+    "games": [
+        {
+        "name": "Gears of War",
+        "brand": "xbox",
+        "image": "images/gow.webp",
+        "thought": "Gears of War was something I played a lot with my brother and friends and it helped destroy that barrier of older siblings not wanting to hang out with their younger sibling. It helped show me brotherhood and that a game could be way more than just a game"
+    },
+
+    {
+        "name": "Halo",
+        "brand": "xbox",
+        "image": "images/halo.webp",
+        "thought": "Halo really helped me through a lot of anxiety growing up, especially Halo 3 which I don't have in this photo. I don't know where I would be now without Halo, I know that may sound extreme but it really did have a huge impact on me."
+    },
+    {
+        "name": "Mass Effect",
+        "brand": "xbox",
+        "image": "images/masseffect.webp",
+        "thought": "Mass Effect was a huge part of I think it was my ninth grade year, it hooked me with an epic sci-fi story and awesome charcters. I didn't realize till later how much playing as Commander Sheppard really helped my confidence and showed me what it was to be a leader. "
+    },
+    {
+        "name": "Gameboy Advanced SP",
+        "brand": "nintendo",
+        "image": "images/gba.webp",
+        "thought": "I played so much Pokemon on this GBA. I know there are plenty of amazing games for this console but to me as a kid all that was on it was Pokemon."
+    },
+    {
+        "name": "Game Cube",
+        "brand": "nintendo",
+        "image": "images/gcn.webp",
+        "thought": "I did not play the Game Cube as much as other consoles we had, but I still have fond memories of playing Melee and zelda on it."
+    },
+    {
+        "name": "Super Smash Bro. Melee",
+        "brand": "nintendo",
+        "image": "images/melee.webp",
+        "thought": "This is easily my most played Game Cube game and it is probably not even close. I loved this game so much as a kid I remember crying when its sequel was delayed."
+    },
+    {
+        "name": "Nintendo 64",
+        "brand": "nintendo",
+        "image": "images/n64.webp",
+        "thought": "This was the first console I ever played and I can still remeber playing Pokemon stadium to this day, and how cool it was that you could play your Gameboy Pokemon games on your tv, that was crazy back then."
+    },
+    {
+        "name": "Nintendo DS",
+        "brand": "nintendo",
+        "image": "images/nds.webp",
+        "thought": "Similar to the GBA this console was primarily used for playing Pokemon games. I do remember using pictochat with my sister alot, that was really the bee's knees."
+    },
+    {
+        "name": "PlayStation 2",
+        "brand": "sony",
+        "image": "images/ps2.webp",
+        "thought": "I don't have pictures of the games we had, but I loved playing the Lord of the rings games and Star Wars Battlefront games on our PS2."
+    },
+    {
+        "name": "Pokemon Yellow",
+        "brand": "nintendo",
+        "image": "images/yellow.webp",
+        "thought": "Pokemin Yellow was the first Pokemon game I ever played. I never finished it as a kid so one day I want to replace the battery in my original copy and beat it for old times sake."
+    },
+    {
+        "name": "Pokemon Ruby",
+        "brand": "nintendo",
+        "image": "images/ruby.webp",
+        "thought": "Pokemon Ruby was another early Pokemon I played as a kid. I don't remember if it was the second or third Pokemon game I played, but I have fond memories of it's music and some of the region."
+    },
+    {
+        "name": "Star Wars Battlefront 2",
+        "brand": "sony",
+        "image": "images/battlefront.webp",
+        "thought": "I played this game a lot as a kid. It was so much fun to play in those large scale battles at that time, and galactic conquest was always a good time."
+    },
+    {
+        "name": "Ratchet and Clank",
+        "brand": "sony",
+        "image": "images/ratchet.webp",
+        "thought": "This was actually the first Ratchet and Clank I personaly played, I watched my brother play them as a kid. This game did get some critism from fans at the time but I really enjoyed it."
+    },
+    {
+        "name": "Lord of the Rings Return of the King",
+        "brand": "sony",
+        "image": "images/lotr.webp",
+        "thought": "For a movie video game, this game was amazing. I had so msuch fun with it as a kid and I have the itch to go play it every few years."
+    },
+    {
+        "name": "Titanfall",
+        "brand": "xbox",
+        "image": "images/titanfall.webp",
+        "thought": "Titanfall is one of my favorite franchises of all time and it's sad to me that it is esentially dead now. It hooked me from the first time I played it and I still love going back and playing it to this day."
+    }
+    ]
+}

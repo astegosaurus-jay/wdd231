@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostalgic Reflection: Games</title>
+    <meta name="author" content="Jason Jimenez">
+    <meta name="description" content="WDD 231 Project Nostalgic Reflection">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Nata+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/game.css">
+    <link rel="stylesheet" href="styles/game-large.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/game.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/n64-controler.svg" alt="n64 controler">
+        <h1>Nostalgic Reflection</h1>
+        <button id="ham-btn" class="hamburger" title="ham-btn"></button>
+    </header>
+     <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pokemon.html">Pokemon Collection</a></li>
+                <li><a href="game.html" class="current">Video Games</a></li>               
+            </ul>
+    </nav>
+    <main>
+        <div>
+            <h2>Portals to another World</h2>
+            <p>Video Games were my escape as a kid and they really helped me keep going. They transported me to different worlds and let me embark on an adventure and escape a lot of difficult things as a kid. some of these games I have gone back and played countless times and I still enjoy them now, as much as I did then. These are just a few of the games and console that in a way helped shape me into the person I am today.</p>
+        </div>
+
+        <div class="touch">
+            <button id="all">All</button>
+            <button id="xbox">Xbox</button>
+            <button id="sony">Playstation</button>
+            <button id="nintendo">Nintendo</button>
+            <button id="button">Info</button>
+
+
+            <dialog id="dialogBox">
+                <div></div>
+                <button id="close">Close</button>
+            </dialog>
+        </div>
+
+        <div class="game">
+
+        </div>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> Nostalgic Reflection</p>
+        <p><span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>

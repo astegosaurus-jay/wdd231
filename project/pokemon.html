@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostalgic Reflection: Pokemon</title>
+    <meta name="author" content="Jason Jimenez">
+    <meta name="description" content="WDD 231 Project Nostalgic Reflection">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Nata+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/pokemon.css">
+    <link rel="stylesheet" href="styles/pokemon-large.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <img src="images/n64-controler.svg" alt="n64 controler">
+        <h1>Nostalgic Reflection</h1>
+        <button id="ham-btn" class="hamburger" title="ham-btn"></button>
+    </header>
+     <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pokemon.html" class="current">Pokemon Collection</a></li>
+                <li><a href="game.html" >Video Games</a></li>               
+            </ul>
+    </nav>
+    <main>
+        <div>
+        <h2>A Time Capsule to Childhood</h2>
+            <p>The one thing I really remember from when I was really little was that I ate, breathed, sleeped Pokemon. I was a little kid during the hayday of pokemaina, I remember that I didn't know the days of the week but I knew what day it was to wake up and watch Pokemon. I still love Pokemon to this day, and now as a grupmy old man I have my critisims with it but those memories of opening packs and getting cards as a kid has stuck with me to this day. Its sad to me how much this trading card game has turned from a product for kids to essentially a stock market where its something to invest in because its valuable. This even affected my enjoyment where over the last few years I would really only be happy if I pulled valueable cards even though I never planned on selling them. I have taken a break from buting packs for a while now and when I eventually start again I want to just simply enjoy the experience and appreciate them for what they are. This is just a small amount of pictures from my collection, but its fun to look back and just feel some of that excitment I had when I was a kid. </p>
+        </div>
+
+        <section class="grid">
+            <figure>
+                <img src="images/pokemonbulba.webp" alt="pokemon cards with bulbasaur" loading="lazy">
+            </figure>
+            <figure>
+                <img src="images/pokemonblast.webp" alt="pokemon cards with blastoise" loading="lazy">
+            </figure>
+            <figure>
+                <img src="images/pokemonchar.webp" alt="pokemon card with charmander" loading="lazy">
+            </figure>
+            <figure>
+                <img src="images/pokemonpika.webp" alt="pokemon cards with pikachu" loading="lazy">
+
+            </figure>
+            <figure>
+                <img src="images/pokemongeo.webp" alt="pokemon cards with geodude" loading="lazy">
+
+            </figure>
+            <figure>
+                <img src="images/pokemonditto.webp" alt="pokemon cards with ditto" loading="lazy">
+            </figure>
+            <figure>
+                <img src="images/pokemonmach.webp" alt="pokemon cards with machamp" loading="lazy">
+
+            </figure>
+            <figure>
+                <img src="images/pokemonmew.webp" alt="pokemon cards with mew" loading="lazy">
+            </figure>
+        </section>
+
+        <form method="get" action="thanks.html" class="wf1">
+            <h2>Feel free to share a memory</h2>
+            <label>Gamer Tag/Nickname <input type="text" name="tag" required autocomplete="given-name" title="Your First Name"></label>
+
+            <label>Favorite Generation*
+                    <select name="gen" id="generation" required>
+                            <option selected disabled="disabled" value="">choose a Generation...</option>
+                            <option value="gen 1">Generation 1</option>
+                            <option value="gen 2">Generation 2</option>
+                            <option value="gen 3">Generation 3</option>
+                            <option value="gen 4">Generation 4</option>
+                            <option value="gen 5">Generation 5</option>
+                            <option value="gen 6">Generation 6</option>
+                            <option value="gen 7">Generation 7</option>
+                            <option value="gen 8">Generation 8</option>
+                            <option value="gen 9">Generation 9</option>
+                    </select>
+            </label>
+
+            
+
+            <label>Favorite Memory <textarea name="memory" title="Describe your memory here...." required rows="5" cols="40"></textarea></label>
+            
+            
+
+            <label><input type="submit" value="Share Now"></label>
+        </form>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> Nostalgic Reflection</p>
+        <p><span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
